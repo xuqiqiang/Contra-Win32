@@ -1,0 +1,204 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MAINCURSOR          CURSOR  DISCARDABLE     "Arrow.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_BIGICON             ICON    DISCARDABLE     "GameIcon.ico"
+IDI_SMALLICON           ICON    DISCARDABLE     "resource\\GameIcon.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP11            BITMAP  DISCARDABLE     "resource\\0.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "resource\\1.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "resource\\2.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "resource\\3.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "resource\\4.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "resource\\5.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "resource\\6.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "resource\\7.bmp"
+IDB_BITMAP19            BITMAP  DISCARDABLE     "resource\\8.bmp"
+IDB_BITMAP20            BITMAP  DISCARDABLE     "resource\\9.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "resource\\bitmap29.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "resource\\bitmap26.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "resource\\bitmap27.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "菜 单"
+    BEGIN
+        MENUITEM "开 始 ",                      ID_START
+        MENUITEM "打 开",                       ID_OPEN
+        MENUITEM "上一关",                      ID_RET
+        MENUITEM "下一关",                      ID_NEXT
+        MENUITEM "打/关声音",                   ID_MUSIC
+        MENUITEM "排行榜",                      ID_PAI
+        MENUITEM "退 出",                       ID_EXIT
+    END
+    POPUP "级 别"
+    BEGIN
+        MENUITEM "第一关",                      ID_L1
+        MENUITEM "第二关",                      ID_L2
+        MENUITEM "第三关",                      ID_L3
+        MENUITEM "第四关",                      ID_L4
+        MENUITEM "第五关",                      ID_L5
+        MENUITEM "自定义",                      ID_ZDY
+    END
+    POPUP "帮 助"
+    BEGIN
+        MENUITEM "说    明",                    ID_INSTR
+        MENUITEM "关于作者",                    ID_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  100, 100, 133, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自定义"
+FONT 12, "黑体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,42,45,50,14
+    EDITTEXT        IDC_EDIT1,69,22,44,12,ES_AUTOHSCROLL
+    LTEXT           "输入极数：",IDC_STATIC,18,24,40,10
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  50, 0, 187, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "排行榜"
+FONT 16, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "久仰",IDOK,72,130,50,14
+    LTEXT           "Static",IDC_STATIC1,37,16,111,102
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "恭喜！"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,69,61,50,14
+    EDITTEXT        IDC_EDIT1,31,37,127,12,ES_AUTOHSCROLL
+    LTEXT           "你打破了这一关的记录，请留下大名",IDC_STATIC,30,13,129,
+                    8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 126
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
